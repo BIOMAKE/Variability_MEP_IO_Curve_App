@@ -8,6 +8,10 @@ The high response variability has become a key topic in brain stimulation. One e
 The code implements a stand-alone user-friendly app that can analyse the variability of MEP IO curves for individual subjects and larger subject populations with their trail-to-trail variability. The whole project is implemented in MATLAB (R2022b) and uses object-oriented programming. In this repository, `SampleCode.m` provides a basic introduction to code usage. More detailed instructions can be found inside the code. Moreover, a built-in instruction programme is also provided in this app.
 
 
+## Folder: Standalone_App
+This folder contains three app installers for Mac, Linux, and Windows. `MATLAB Runtime(R2022B)` is pre-required to install this MATLAB app. MATLAB® Runtime contains the libraries needed to run compiled MATLAB applications on a target system without a licensed copy of MATLAB.
+
+
 ## Folder: Functions
 1. `modelCalibration.m`: This class provides three optimisation algorithms to calibrate the provided model.
 2. `Hill5PCurveModel.m`: This is the main model class, modified from the original code in the study of 'Goetz SM, Peterchev AV. A model of variability in brain stimulation evoked responses. In 2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society 2012 Aug 28 (pp. 6434-6437). IEEE.'.
