@@ -5,7 +5,7 @@ The high response variability has become a key topic in brain stimulation. One e
 
 
 ## Introduction
-The code implements a stand-alone user-friendly app that can analyse the variability of MEP IO curves for individual subjects and larger subject populations with their trail-to-trail variability. The whole project is implemented in MATLAB (R2022b) and uses object-oriented programming. In this repository, `SampleCode.m` provides a basic introduction to code usage. More detailed instructions can be found inside the code. Moreover, a built-in instruction programme is also provided in this app. We also provide a sample database `mySamplePoints.xlsx` for users to get familiar how the app or code works.
+The code implements a stand-alone user-friendly app that can analyse the variability of MEP IO curves for individual subjects and larger subject populations with their trail-to-trail variability. The whole project is implemented in MATLAB (R2022b) and uses object-oriented programming. In this repository, `SampleCode.m` provides a basic introduction to code usage. More detailed instructions can be found inside the code. Moreover, a built-in instruction programme is also provided in this app. We also provide a sample database `mySamplePoints.xlsx` for users to get familiar with how the app or code works.
 
 
 ## Folder: Standalone_App
