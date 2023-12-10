@@ -14,12 +14,12 @@ This folder contains three app installers for Mac, Linux, and Windows. `MATLAB R
 
 ## Folder: Functions
 1. `modelCalibration.m`: This class provides three optimisation algorithms to calibrate the provided model.
-2. `Hill5PCurveModel.m`: This is the main model class, modified from the original code given in [1].
+2. `Hill5PCurveModel.m`: This is the main model class, modified from the original code given in Reference 1.
 3. `figureOperation.m`: This class is to plot figures, such as the logarithmic MEP IO curve with variability ranges, and the excitability level plot and its corresponding p-value histogram.
 4. `tableOperation.m`: This class is used in the app and provides static methods to update the content of the GUI table.
 5. `saveFileOperation.m`: This class is used in the app and is to save plots and optimal results.
 
 ## References
-[1] Goetz SM, Peterchev AV. A model of variability in brain stimulation evoked responses. In 2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society 2012 Aug 28 (pp. 6434-6437). IEEE.
-[2] Goetz SM, Luber B, Lisanby SH, Peterchev AV. A novel model incorporating two variability sources for describing motor evoked potentials. Brain stimulation. 2014 Jul 1;7(4):541-52.
-[3] Goetz SM, Howell B, Wang B, Li Z, Sommer MA, Peterchev AV, Grill WM. Isolating two sources of variability of subcortical stimulation to quantify fluctuations of corticospinal tract excitability. Clinical Neurophysiology. 2022 Jun 1;138:134-42.
+1. Goetz SM, Peterchev AV. A model of variability in brain stimulation evoked responses. In 2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society 2012 Aug 28 (pp. 6434-6437). IEEE.
+2. Goetz SM, Luber B, Lisanby SH, Peterchev AV. A novel model incorporating two variability sources for describing motor evoked potentials. Brain stimulation. 2014 Jul 1;7(4):541-52.
+3. Goetz SM, Howell B, Wang B, Li Z, Sommer MA, Peterchev AV, Grill WM. Isolating two sources of variability of subcortical stimulation to quantify fluctuations of corticospinal tract excitability. Clinical Neurophysiology. 2022 Jun 1;138:134-42.
