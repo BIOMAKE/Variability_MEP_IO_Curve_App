@@ -1,5 +1,12 @@
 # MEP_IO_Curve_App
+
+## Background
 The high response variability has become a key topic in brain stimulation. One example that demonstrates high variability is motor-evoked potentials (MEPs). MEPs are among the few readily observable direct responses to suprathreshold stimuli, e.g., of transcranial magnetic stimulation, and serve for a variety of applications, often in the form of dose-response curves, also called recruitment or input-output (IO) curves. However, MEPs and thus IO curves show extreme trial-to-trial variability that can exceed more than two decimal orders of magnitude. Recent studies have identified issues in previous statistical analysis of IO curves and introduced better methods, others could quantitatively separate several widely independent variability sources. However, research has failed to provide the field with a user-friendly implementation of the methods for analysing such IO curves statistically sound and separating variability so that they were limited to a few groups. We implemented recent IO curve methods with a graphical user interface in the MATLAB App Designer and provided the code as well as compiled versions for Mac, Linux, and Windows.
+
+
+## Introduction
+The code implements a user-friendly app that can analyse the variability of MEP IO curves for individual subjects and larger subject populations with their trail-to-trail variability. The whole project is implemented in MATLAB (R2022b) and uses object-oriented programming. In this repository, `SampleCode.m` provides a basic introduction to code usage. More detailed instructions can be found inside the code.
+
 
 ## Folder: Functions
 1. `modelCalibration.m`: This class provides three optimisation algorithms to calibrate the provided model.
