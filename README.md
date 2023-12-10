@@ -5,12 +5,12 @@ The high response variability has become a key topic in brain stimulation. One e
 
 
 ## Introduction
-The code implements a user-friendly app that can analyse the variability of MEP IO curves for individual subjects and larger subject populations with their trail-to-trail variability. The whole project is implemented in MATLAB (R2022b) and uses object-oriented programming. In this repository, `SampleCode.m` provides a basic introduction to code usage. More detailed instructions can be found inside the code.
+The code implements a stand-alone user-friendly app that can analyse the variability of MEP IO curves for individual subjects and larger subject populations with their trail-to-trail variability. The whole project is implemented in MATLAB (R2022b) and uses object-oriented programming. In this repository, `SampleCode.m` provides a basic introduction to code usage. More detailed instructions can be found inside the code.
 
 
 ## Folder: Functions
 1. `modelCalibration.m`: This class provides three optimisation algorithms to calibrate the provided model.
-2. `Hill5PCurveModel.m`: This is the main model class, modified from the original code in the study of 'Goetz SM, Peterchev AV. A model of variability in brain stimulation evoked responses. In2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society 2012 Aug 28 (pp. 6434-6437). IEEE.'.
+2. `Hill5PCurveModel.m`: This is the main model class, modified from the original code in the study of 'Goetz SM, Peterchev AV. A model of variability in brain stimulation evoked responses. In 2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society 2012 Aug 28 (pp. 6434-6437). IEEE.'.
 3. `figureOperation.m`: This class is to plot figures, such as the logarithmic MEP IO curve with variability ranges, and the excitability level plot and its corresponding p-value histogram.
 4. `tableOperation.m`: This class is used in the app and provides static methods to update the content of the GUI table.
 5. `saveFileOperation.m`: This class is used in the app and is to save plots and optimal results.
