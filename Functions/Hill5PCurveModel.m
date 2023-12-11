@@ -56,7 +56,7 @@ classdef Hill5PCurveModel < handle
     %% Model text
     properties
         modelName = 'Hill Function (5DoF)' % model name
-        modelDescription = ["f(x) = exp(p1 + (p2-p1)/(1 + p3/((x-p5)^p4))";
+        modelDescription = ["f(x) = p1 + (p2-p1)/(1 + p3/((x-p5)^p4)";
                         "p1 - the minimum function value";
                         "p2 - the maximum function value";
                         "p3 - the scale factor for x";
