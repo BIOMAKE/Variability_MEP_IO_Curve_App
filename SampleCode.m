@@ -20,7 +20,7 @@
 %
 %%
 clear
-addpath("Functions\")
+addpath("Functions\") % change the path including functions used in this sample code if necessary
 
 %% simulate a virtual subject database.
 % Parameters are obtained from the following study:
