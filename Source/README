@@ -1,4 +1,0 @@
-All source code are provided in this folder.
-1. `MEP_IO_Model_App.mlapp` is the main app file that can be compiled in MATLAB Designer.
-2. `saveDialog.mlapp` is the dialog window for the main app.
-3. `Icon.png` is the icon used in the app.
