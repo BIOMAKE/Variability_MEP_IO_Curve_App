@@ -15,7 +15,7 @@ The code implements a stand-alone user-friendly app that can analyse the variabi
 This folder contains three app installers for Mac, Linux, and Windows. `MATLAB Runtime(R2022B)` is pre-required to install this MATLAB app. MATLAB® Runtime contains the libraries needed to run compiled MATLAB applications on a target system without a licensed copy of MATLAB.
 
 
-## Folder: Source
+## Folder: Development
 All source files are provided in this folder.
 1. `modelCalibration.m`: This class provides three optimisation algorithms to calibrate the provided model.
 2. `Hill5PCurveModel.m`: This is the main model class, modified from the original code given in Reference 1.
