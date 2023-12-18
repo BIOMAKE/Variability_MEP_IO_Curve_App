@@ -11,11 +11,12 @@ This work intends to provide the latest methods for analysing IO curves and extr
 The code implements a stand-alone user-friendly app that can analyse the variability of MEP IO curves for individual subjects and larger subject populations with their trail-to-trail variability. The whole project is implemented in MATLAB (R2022b) and uses object-oriented programming. In this repository, `SampleCode.m` provides a basic introduction to code usage. More detailed instructions can be found inside the code. Moreover, a built-in instruction programme is also provided in this app. We also provide a sample database `mySamplePoints.xlsx` for users to get familiar with how the app or code works.
 
 
-## Folder: Standalone_App
+## Folder: StandaloneApp_v10
 This folder contains three app installers for Mac, Linux, and Windows. `MATLAB Runtime(R2022B)` is pre-required to install this MATLAB app. MATLAB® Runtime contains the libraries needed to run compiled MATLAB applications on a target system without a licensed copy of MATLAB.
 
 
-## Folder: Functions
+## Folder: Source
+All source files are provided in this folder.
 1. `modelCalibration.m`: This class provides three optimisation algorithms to calibrate the provided model.
 2. `Hill5PCurveModel.m`: This is the main model class, modified from the original code given in Reference 1.
 3. `figureOperation.m`: This class is to plot figures, such as the logarithmic MEP IO curve with variability ranges, and the excitability level plot and its corresponding p-value histogram.
