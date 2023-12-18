@@ -14,4 +14,4 @@ In `Functions` folder:
 
 
 ## Note
-MATLAB (R2022b) is unstable running on Linux. Windows and Mac versions are highly recommended for this app.
+MATLAB is unstable running on Linux. Windows and Mac versions are highly recommended for this app.
